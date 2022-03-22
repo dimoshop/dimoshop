@@ -77,7 +77,7 @@ htlm{
 #banner{
     margin: 50px 0px 0px 0px;
     padding-top: 36.5%;
-    background-image: url('/assets/img/phong-nen-chup-anh-3d-so-25.jpg');
+    
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -98,7 +98,6 @@ htlm{
     height: 100%;
 }
 #food{
-    background-image: url('/assets/img/nentp.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 4%;
@@ -113,13 +112,12 @@ htlm{
     z-index: 1;
 }
 #doanvat{
-    background-image: url('/assets/img/nentp2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 4%;
 }
 #douong{
-    background-image: url('/assets/img/nentp3.jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 3%;
