@@ -1,0 +1,25 @@
+@media (min-width: 740px ) and (max-width:1084px){
+    .more{
+        left: 14%
+    }
+    #content .item {
+        position: relative;
+        left: 14%;
+    }
+}
+@media (min-width: 1085px) and (max-width:1319px){
+    .more{
+        left: 33.5%;
+    }
+}
+@media (min-width:1320px) and (max-width:   1449px){
+    .more{
+        left: 0%;
+        top: -1px;
+    }
+    #content .item {
+        position: relative;
+        left: 10%;
+    }
+}
+/* 1320*/

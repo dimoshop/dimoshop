@@ -1,0 +1,289 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}  
+htlm{
+    font-family: "Lato",sans-serif;
+}
+#header{
+    height:50px;
+    background-color: #DDDDDD;
+}
+#header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index: 2;
+}
+#tcc {
+    display:inline-block;
+}
+#td li,#tienich li  {
+    display: inline-block;
+    line-height: 50px;
+    text-transform:uppercase;
+}
+
+#td li p,#tienich li a {
+    color:black;
+    text-decoration: none;
+    padding:0 20px;
+    display:inline-block;
+}
+#td li:hover p,
+#tienich li:hover a{
+    color:white;
+    cursor: pointer;
+    background-image: linear-gradient(0,rgb(61, 60, 60),rgb(117, 116, 116));
+}
+#td {
+    float:right;
+}
+
+.more,
+#content .item {
+    border-style:solid;
+    border-width: 0.001px;
+    margin: 12px 35px ;
+    padding: 12px 12px;
+    border-radius: 10%; 
+    display: inline-block;
+    background-color: #eeee;
+}
+#content .item p {
+   text-align:center;
+}
+#content .tieude{
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+    color:white;
+}
+.more:hover,
+#content .item:hover{
+    transform: scale(1.05);
+    box-shadow: 0.5 px;
+    cursor: pointer;
+}
+#content .item .mua:hover {
+    color:aqua;
+    cursor: pointer;
+}
+#content .item .mua {
+    font-size: 30px;
+}
+#banner{
+    margin: 50px 0px 0px 0px;
+    padding-top: 36.5%;
+    background-image: url('/assets/img/phong-nen-chup-anh-3d-so-25.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#content .item img{
+    border-style:solid;
+    border-width: 0.001px;
+    border-radius: 10px;
+    width:250px;
+    height: 160px;
+}
+#content .khung {
+    margin: 10px 10px 0 ;
+    border-style:solid;
+    border-width: 0.001px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    height: 100%;
+}
+#food{
+    background-image: url('/assets/img/nentp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4%;
+}
+.ti-more{
+    font-size: 30px;
+    color: black;
+}
+.more{
+    position: relative;
+    margin-left: 140px;
+    z-index: 1;
+}
+#doanvat{
+    background-image: url('/assets/img/nentp2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4%;
+}
+#douong{
+    background-image: url('/assets/img/nentp3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3%;
+}
+#ketthuc{
+    padding-top: 30px;
+}
+#lienhe{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#thongtin i{
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#logo i{
+    
+    font-size: 30px;
+}
+#logo{
+    margin-left: 47% ;
+    padding: 0px 5px 20px;
+}
+#logo i:hover{
+    cursor: pointer;
+    color:violet;
+}
+.modalquenmk,.modalmua,.modaldk, .modaldn{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10% 30%;
+    display: none;
+}
+.modalquenmk.open,
+.modalmua.open,
+.modaldk.open,
+.modaldn.open{
+    display:block;
+}
+.nhan {
+    position: relative;
+    height: 50px;
+    background-color: #CC99CC;
+    text-align:  center;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    
+}
+.nhan h1{
+    height: 50px;
+    font-size: 20px;
+    transform:translateY(30%);
+}
+.close-icon-4,
+.close-icon-3,
+.close-icon-2,
+.close-icon-1{
+    position: absolute;
+    top:3px;
+    right:4px;
+    font-size: 15px;
+}
+.close-icon-4:hover,
+.close-icon-3:hover,
+.close-icon-2:hover,
+.close-icon-1:hover{
+    color:red;
+    cursor: pointer;
+}
+.khungmodalquenmk,.khungmodalmua,.khungmodaldn,.khungmodaldk{
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    border-radius: 10px;
+    animation: modaltran ease 0.5s;
+}
+.noidungmodal{
+    padding: 10px 10px;
+}
+.inputmodal{
+    padding: 10px 5px;
+    width: 70%;
+    border-style: solid;
+   
+}
+.itemmodal{
+    transform: translateX(12%);
+    padding: 10px 0px;
+}
+.ketthucmodal p{
+    display: inline-block;
+    font-size: 20px;
+}
+.ketthucmodal{
+    transform:translateX(30%);
+    padding:10px 0px;
+}
+.submitquenmk,
+.submitmua1,
+.submitmua2,
+.changedk,
+.changedn{
+    margin-left: 10px;
+    padding: 5px 7px;
+    border-style: solid;
+    font-style: italic;
+    border-width: 0.5px;
+    background-color: #DDDDDD;
+    border-radius: 3px;
+}
+.quenmk:hover,
+.submitquenmk:hover,
+.submitmua2:hover,
+.submitmua1:hover,
+.changedk:hover,
+.submitdk:hover,
+.submitdn:hover,
+.changedn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #CC99CC;
+    
+}
+@keyframes modaltran {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.them{
+    margin-left: 27%;
+}
+.submitmua1,.quenmk,
+.submitmua2,.submitdk,
+.submitdn {
+    display: inline-block;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+.quenmk{
+    display: inline-block;
+}
+.submitdk{
+    margin-left: 20%;
+}
+.submitmua1,.submitmua2{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.submitquenmk{
+    Width:17%;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
