@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "file:///C:/Users/hangu/OneDrive/M%C3%A1y%20t%C3%ADnh/code/web/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+        
+       
+       
+    ]
+}

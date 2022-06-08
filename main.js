@@ -78,3 +78,14 @@ function anmd1() {
     ndmdl4.addEventListener('click',function(event){
         event.stopPropagation()
     })
+    const mo=document.querySelector('.ti-angle-double-down')
+    const menus=document.querySelectorAll('.li')
+    function dongmomenu(){
+        for(const menu of menus){
+            if(menu.className=='li')
+                menu.classList.add('open')
+            else
+                menu.classList.remove('open')
+        }
+    }
+    mo.addEventListener('click',dongmomenu)

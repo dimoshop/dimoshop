@@ -3,38 +3,44 @@
     <head>
 <title>DIMO Shop</title>
 <meta charset="uft-8"> 
-<link rel="stylesheet" href="./responsive.css">
 <link rel="icon" href="./assets/img/logo.png" type="image" sizes="16x16">
 <link rel="stylesheet" href="./assets/css/style.css">
 <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
 <link rel="stylesheet" href="./assets/img">
+<link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./responsive.css">
     </head>
     <body>
         <div id="header">
+        <i class="ti-angle-double-down"></i>
         <div id="tcc">
             <ul id="tienich">
-                <li><a href="#">
-                    <i class="ti-home"></i>
-                </a></li>
-                <li><a href="#content" >Đồ ăn</a></li>
-                <li><a href="#doanvat">Đồ ăn vặt</a></li>
-                <li><a href="#douong">Đồ uống</a></li>
-                <li><a href="">
-                    <i class="ti-search"></i>
-                </a></li>
+                <a  id="return" href="#">
+                    <img id="logotc" src="./assets/img/logo.png" alt="DIMO Shop">
+                </a>
+                <div class="nav">
+                <li class="li"><a href="#ctner 1" >Đồ ăn</a></li>
+                <li class="li"><a href="#ctner 2">Đồ ăn vặt</a></li>
+                <li class="li"><a href="#ctner 3">Đồ uống</a></li>
+                </div>
             </ul>
-        </div>
+            <div id="search">
+                <div class="ti-search"><i></i></div>
+                <input class="input" placeholder="Tìm kiếm..." spellcheck="false" value>
+            </div>
             <div id="td">  
                 <ul id="thedn">
                 <li><p class="jsdn">Đăng nhập</p></li>
                 <li><p class="jsdk">Đăng ký</p></li>
                 </ul>
-        </div>
+            </div>
+    </div>
     </div>
     <div id="banner" style="background-image:url('./assets/img/phong-nen-chup-anh-3d-so-25.jpg');">
     </div>
     <div id="content" }>
-        <div id="food" style=" background-image: url('./assets/img/nentp.jpg')">
+        <div id="ctner 1">
+        <div id="food" >
             <h1 class="tieude">ĐỒ ĂN</h1>
         
         <div class="khung">
@@ -128,12 +134,16 @@
                 <i class="ti-shopping-cart"></i>   
             </p>
         </div>
+        <div class="hopmore">
         <div class="more">
             <i class="ti-more"></i>
         </div>
+    </div>
         </div>
     </div>
-    <div id="doanvat" style="background-image: url('./assets/img/nentp2.jpg');">
+</div>
+<div id="ctner 2">
+    <div id="doanvat" >
         <div>
             <h1 class="tieude">ĐỒ ĂN VẶT</h1>
         </div>
@@ -228,12 +238,16 @@
                     <i class="ti-shopping-cart"></i>   
                 </p>
             </div>
+            <div class="hopmore">
             <div class="more">
                 <i class="ti-more"></i>
             </div>
         </div>
+        </div>
     </div>
-    <div id="douong" style="background-image: url('./assets/img/nentp3.jpg');">
+</div>
+<div id="ctner 3">
+    <div id="douong">
         <div>
             <h1 class="tieude">ĐỒ UỐNG</h1>
         </div>
@@ -271,7 +285,7 @@
             <div class="item">
                 <img src="./assets/img/sữa tươi.jpg" alt="Sữa Tươi Trân Châu Đường Đen" > 
                 <p>
-                   Sữa Tươi TC Đường Đen
+                   Sữa Tươi Trân Châu Đường Đen
                     <br>Giá: 20.000đ/phần</br>
                 </p>
                 <p class="mua">
@@ -328,23 +342,26 @@
                     <i class="ti-shopping-cart"></i>   
                 </p>
             </div>
+            <div class="hopmore">
             <div class="more">
                 <i class="ti-more"></i>
             </div>
+        </div> 
         </div>
     </div>
     </div>
+</div>
     <div id="ketthuc">
         <div id="lienhe">
             Liên Hệ
         </div>
         <div id="thongtin">
             <i class="ti-location-pin"> Võ Xu, Đức Linh, Bình Thuận</i>
-            <i class="ti-email"> dimoshop@gmail.com</i>
+            <i ><a class="ti-email" href="mailto:hzanguyen1804@gmail.com"> dimoshop@gmail.com </a> </i>
         </div>
         <div id="logo">
-            <i class="ti-facebook"></i>
-            <i class="ti-instagram"></i>
+            <i><a href="https://www.facebook.com/nvtnttnhsntthnhs6967970304" class="ti-facebook"></a></i>
+            <i><a href="#"class="ti-instagram"></a></i>
         </div>
     </div>
     <div class="modaldn">
@@ -433,8 +450,10 @@
                 </div>
             </div>
             <div class="them">
+                <div class="mua">
                 <p class="submitmua1 ti-shopping-cart-full"></p>
                 <p class="submitmua2">Mua ngay</p>
+                </div>
             </div>
         </div>
     </div>

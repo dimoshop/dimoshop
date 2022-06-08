@@ -2,13 +2,11 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Rokkitt', serif;
 }  
-htlm{
-    font-family: "Lato",sans-serif;
-}
 #header{
-    height:50px;
-    background-color: #DDDDDD;
+    height:40px;
+    background-color: #CC99CC;
 }
 #header{
     position: fixed;
@@ -21,17 +19,27 @@ htlm{
 #tcc {
     display:inline-block;
 }
-#td li,#tienich li  {
+#return,#td li,.li ,.nav,#search{
     display: inline-block;
-    line-height: 50px;
+    line-height: 40px;
     text-transform:uppercase;
+    border-color: black;
+    vertical-align: middle;
+    height:40px;
 }
-
-#td li p,#tienich li a {
+#tienich,#td{
+    display: inline-block;
+}
+#return ,#td li p,#tienich li a {
     color:black;
     text-decoration: none;
     padding:0 20px;
     display:inline-block;
+    height:40px;
+    
+}
+#tcc{
+    width:100%;
 }
 #td li:hover p,
 #tienich li:hover a{
@@ -42,24 +50,33 @@ htlm{
 #td {
     float:right;
 }
-
+.hopmore{
+    text-align: center;
+}
 .more,
 #content .item {
     border-style:solid;
     border-width: 0.001px;
-    margin: 12px 35px ;
-    padding: 12px 12px;
-    border-radius: 10%; 
+    margin: 10px 10px ;
+    border-radius: 10px; 
     display: inline-block;
     background-color: #eeee;
+    vertical-align: middle;
+}
+.more{
+    width:50px;
+    text-align: center;
+
 }
 #content .item p {
    text-align:center;
+   
 }
 #content .tieude{
-    padding: 60px 0px 0px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
-    color:white;
+    color:black;
 }
 .more:hover,
 #content .item:hover{
@@ -75,7 +92,7 @@ htlm{
     font-size: 30px;
 }
 #banner{
-    margin: 50px 0px 0px 0px;
+    margin-top: 40px;
     padding-top: 36.5%;
     
     background-repeat: no-repeat;
@@ -85,64 +102,59 @@ htlm{
     border-style:solid;
     border-width: 0.001px;
     border-radius: 10px;
-    width:250px;
+    width:100%;
     height: 160px;
+    
 }
 #content .khung {
-    margin: 10px 10px 0 ;
+    margin: 0 40px ;
     border-style:solid;
     border-width: 0.001px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color:rgb(253, 226, 226);
     align-items: center;
     height: 100%;
-}
-#food{
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 4%;
+    text-align: center;
+    padding-top: 10px;
 }
 .ti-more{
     font-size: 30px;
     color: black;
-}
-.more{
-    position: relative;
-    margin-left: 140px;
-    z-index: 1;
-}
-#doanvat{
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 4%;
-}
-#douong{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 3%;
+    vertical-align: middle;
 }
 #ketthuc{
     padding-top: 30px;
+    background-color: black;
+    color: white;
 }
 #lienhe{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     padding-bottom: 10px;
 }
-#thongtin i{
+#thongtin i,#thongtin i a{
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 20px;
+}
+#logo i a{
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#thongtin i a, #logo i a{
+    text-decoration: none;
+    color:white;
 }
 #logo i{
     
     font-size: 30px;
 }
 #logo{
-    margin-left: 47% ;
     padding: 0px 5px 20px;
+    text-align: center;
 }
 #logo i:hover{
     cursor: pointer;
@@ -156,8 +168,8 @@ htlm{
     right:0;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.5);
-    padding:10% 30%;
     display: none;
+    padding-top:200px
 }
 .modalquenmk.open,
 .modalmua.open,
@@ -176,8 +188,8 @@ htlm{
 }
 .nhan h1{
     height: 50px;
+    line-height:50px;
     font-size: 20px;
-    transform:translateY(30%);
 }
 .close-icon-4,
 .close-icon-3,
@@ -201,6 +213,9 @@ htlm{
     background-color: white;
     border-radius: 10px;
     animation: modaltran ease 0.5s;
+    text-align: center;
+    width:350px;
+    margin: auto;
 }
 .noidungmodal{
     padding: 10px 10px;
@@ -212,7 +227,6 @@ htlm{
    
 }
 .itemmodal{
-    transform: translateX(12%);
     padding: 10px 0px;
 }
 .ketthucmodal p{
@@ -220,7 +234,6 @@ htlm{
     font-size: 20px;
 }
 .ketthucmodal{
-    transform:translateX(30%);
     padding:10px 0px;
 }
 .submitquenmk,
@@ -257,31 +270,62 @@ htlm{
         transform: translateY(0);
     }
 }
-.them{
-    margin-left: 27%;
-}
 .submitmua1,.quenmk,
 .submitmua2,.submitdk,
-.submitdn {
+.submitdn ,.submitquenmk{
     display: inline-block;
     text-align: center;
     border-style: solid;
     border-width: 0.5px;
     padding: 5px 7px;
     border-radius: 3px;
+    vertical-align: middle;
+}
+.submitmua1,.submitmua2{
+    height:30px;
+    margin: 0 0;
 }
 .quenmk{
     display: inline-block;
 }
-.submitdk{
-    margin-left: 20%;
+.them{
+    padding: 10px 0;
 }
-.submitmua1,.submitmua2{
-    margin-left: 10%;
-    margin-bottom: 5%;
+#content{
+    padding-bottom: 10px;
 }
-.submitquenmk{
-    Width:17%;
-    margin-left: 20%;
-    margin-bottom: 5px;
+#logotc{
+    height:30px;
+}
+.ti-search,.input{
+    color:black;
+    padding: 0 10px;
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle; 
+}
+.ti-search{
+    line-height: 35px;
+}
+.input{
+    border-width: 0px;
+    height: 25px;
+    transform: translateY(-3px);
+}
+#search{
+    height:35px;
+    border-style: solid;
+    border-radius: 10px;;
+    border-width: 0.1px;
+    padding-right: 10px;
+}
+.ti-angle-double-down{
+    position: absolute;
+    left:100px;
+    top:10px;
+    display: none;
+}
+.ti-angle-double-down:hover{
+    cursor: pointer;
+    color: red;
 }
