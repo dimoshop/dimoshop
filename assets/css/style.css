@@ -19,7 +19,7 @@
 #tcc {
     display:inline-block;
 }
-#return,#td li,.li ,.nav,#search{
+#return,.li ,.nav,#search{
     display: inline-block;
     line-height: 40px;
     text-transform:uppercase;
