@@ -1,3 +1,8 @@
+@media(min-width: 740px){
+    #jsdk,#jsdn{
+        display: none;
+    }
+}
 @media(max-width: 1023px) {
 
     .li{
@@ -30,6 +35,13 @@
     .ti-angle-double-down{
         display: block;
     }
+    
+}
+@media(max-width: 1023px) and (min-width: 740px){
+    #content .item img{
+        height:100px;
+        width:100%;
+    }
 }
 @media(max-width:739px){
     #search{
@@ -53,8 +65,10 @@
 
     }
     #content .item img{
-        height:100px;
+        height:70px;
         width:100%;
     }
-    
+    #thedn{
+        display: none;
+    }
 }

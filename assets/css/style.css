@@ -30,7 +30,7 @@
 #tienich,#td{
     display: inline-block;
 }
-#return ,#td li p,#tienich li a {
+#return ,#td li p,#tienich li a ,#tienich li p{
     color:black;
     text-decoration: none;
     padding:0 20px;
@@ -42,7 +42,7 @@
     width:100%;
 }
 #td li:hover p,
-#tienich li:hover a{
+#tienich li:hover a,#tienich li:hover p{
     color:white;
     cursor: pointer;
     background-image: linear-gradient(0,rgb(61, 60, 60),rgb(117, 116, 116));
@@ -169,7 +169,7 @@
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
-    padding-top:200px
+    padding-top:10%
 }
 .modalquenmk.open,
 .modalmua.open,
@@ -258,6 +258,16 @@
 .submitdn:hover,
 .changedn:hover{
     cursor: pointer;
+}
+.quenmk:active,
+.submitquenmk:active,
+.submitmua2:active,
+.submitmua1:active,
+.changedk:active,
+.submitdk:active,
+.submitdn:active,
+.changedn:active{
+    cursor: pointer;
     transform: scale(1.1);
     background-color: #CC99CC;
     
@@ -327,5 +337,7 @@
 }
 .ti-angle-double-down:hover{
     cursor: pointer;
-    color: red;
+}
+#jsdk p,#jsdn p{
+    width:100%;
 }

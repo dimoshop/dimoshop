@@ -1,5 +1,6 @@
 
-const dn = document.querySelector('.jsdn')
+const dn1 = document.querySelector('.jsdn')
+const dnc1 =document.querySelector('#jsdn')
 const mdal1 = document.querySelector('.modaldn')
 const dong = document.querySelector('.close-icon-1')
 const ndmdl1= document.querySelector('.khungmodaldn')
@@ -9,13 +10,15 @@ function hienmd1() {
 function anmd1() {
     mdal1.classList.remove('open')
 }
-    dn.addEventListener('click',hienmd1)
+dn1.addEventListener('click',hienmd1)
+dnc1.addEventListener('click',hienmd1)
     dong.addEventListener('click',anmd1)
     mdal1.addEventListener('click',anmd1)
     ndmdl1.addEventListener('click', function(event){
         event.stopPropagation()
     })
     const dk = document.querySelector('.jsdk')
+    const dkc =document.querySelector('#jsdk')
     const mdal2 = document.querySelector('.modaldk')
     const dong2 = document.querySelector('.close-icon-2')
     const ndmdl2= document.querySelector('.khungmodaldk')
@@ -34,6 +37,7 @@ function anmd1() {
         mdal1.classList.add('open')
     }
         dk.addEventListener('click',hienmd2)
+        dkc.addEventListener('click',hienmd2)
         dong2.addEventListener('click',anmd2)
         mdal2.addEventListener('click',anmd2)
         ndmdl2.addEventListener('click',function(event){
@@ -89,3 +93,6 @@ function anmd1() {
         }
     }
     mo.addEventListener('click',dongmomenu)
+    for(const menu of menus){
+        menu.addEventListener('click',dongmomenu);
+    }
