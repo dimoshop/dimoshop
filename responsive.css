@@ -37,14 +37,14 @@
         display: block;
     }
     *{
-        font-size: 20px;
+        font-size: 15px;
     }
     #content .tieude{
         margin : 10px 0;
         padding: 0 0;
     }
     .ti-more{
-        font-size: 20px;
+        font-size: 15px;
     }
     #ketthuc div,#ketthuc div i,#ketthuc div i a{
         font-size: 15px;

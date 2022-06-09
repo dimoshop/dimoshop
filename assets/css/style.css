@@ -214,7 +214,7 @@
     border-radius: 10px;
     animation: modaltran ease 0.5s;
     text-align: center;
-    width:350px;
+    width:40%;
     margin: auto;
 }
 .noidungmodal{
@@ -231,7 +231,6 @@
 }
 .ketthucmodal p{
     display: inline-block;
-    font-size: 20px;
 }
 .ketthucmodal{
     padding:10px 0px;
@@ -292,7 +291,6 @@
     vertical-align: middle;
 }
 .submitmua1,.submitmua2{
-    height:30px;
     margin: 0 0;
 }
 .quenmk{
@@ -347,4 +345,6 @@
 .ti-angle-double-down{
     transform: translateY(5px)
 }
-
+.input{
+    background-color: #CC99CC;
+}
