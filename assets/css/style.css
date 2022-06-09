@@ -179,7 +179,6 @@
 }
 .nhan {
     position: relative;
-    height: 50px;
     background-color: #CC99CC;
     text-align:  center;
     border-top-left-radius: 10px; 
@@ -187,9 +186,7 @@
     
 }
 .nhan h1{
-    height: 50px;
-    line-height:50px;
-    font-size: 20px;
+    line-height: 50px;
 }
 .close-icon-4,
 .close-icon-3,
@@ -214,7 +211,7 @@
     border-radius: 10px;
     animation: modaltran ease 0.5s;
     text-align: center;
-    width:40%;
+    width:350px;
     margin: auto;
 }
 .noidungmodal{

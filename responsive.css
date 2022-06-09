@@ -62,6 +62,12 @@
     .ti-angle-double-down{
         transform: translateY(1px)
     }
+    .nhan h1{
+        line-height: 30px;
+    }
+    .khungmodalquenmk,.khungmodalmua,.khungmodaldn,.khungmodaldk{
+        width:300px;
+    }
 }
 @media(max-width:739px){
     #search{
@@ -114,5 +120,10 @@
     .ti-angle-double-down{
         transform: translateY(5px)
     }
-    
+    .khungmodalquenmk,.khungmodalmua,.khungmodaldn,.khungmodaldk{
+        width:200px;
+    }
+    .nhan h1{
+        line-height: 20px;
+    }
 }
