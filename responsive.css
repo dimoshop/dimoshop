@@ -68,6 +68,13 @@
     .khungmodalquenmk,.khungmodalmua,.khungmodaldn,.khungmodaldk{
         width:300px;
     }
+    #content .item img{
+        display: block;
+        max-width:300px;
+        max-height:100px;
+        width: auto;
+        height: auto;
+    }
 }
 @media(max-width:739px){
     #search{
@@ -91,8 +98,11 @@
 
     }
     #content .item img{
-        height:50px;
-        width:100%;
+        display: block;
+        max-width:240px;
+        max-height:70px;
+        width: auto;
+        height: auto;
     }
     #content .item{
         margin: 5px 0;
