@@ -36,12 +36,31 @@
     .ti-angle-double-down{
         display: block;
     }
-    
+    *{
+        font-size: 20px;
+    }
+    #content .tieude{
+        margin : 10px 0;
+        padding: 0 0;
+    }
+    .ti-more{
+        font-size: 20px;
+    }
+    #ketthuc div,#ketthuc div i,#ketthuc div i a{
+        font-size: 15px;
+        padding-bottom:10px;
+    }
 }
 @media(max-width: 1023px) and (min-width: 740px){
     #content .item img{
-        height:100px;
+        height:130px;
         width:100%;
+    }
+    #logotc{
+        transform: translateY(5px)
+    }
+    .ti-angle-double-down{
+        transform: translateY(1px)
     }
 }
 @media(max-width:739px){
@@ -66,10 +85,34 @@
 
     }
     #content .item img{
-        height:70px;
+        height:50px;
         width:100%;
+    }
+    #content .item{
+        margin: 5px 0;
     }
     #thedn{
         display: none;
     }
+    *{
+        font-size: 10px;
+    }
+    #content .tieude{
+        margin : 10px 0;
+        padding: 0 0;
+    }
+    .ti-more{
+        font-size: 10px;
+    }
+    #ketthuc div,#ketthuc div i,#ketthuc div i a{
+        font-size: 15px;
+        padding-bottom:10px;
+    }
+    #logotc{
+        transform: translateY(5px)
+    }
+    .ti-angle-double-down{
+        transform: translateY(5px)
+    }
+    
 }

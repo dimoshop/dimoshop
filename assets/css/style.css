@@ -341,3 +341,10 @@
 #jsdk p,#jsdn p{
     width:100%;
 }
+#logotc{
+    transform: translateY(5px)
+}
+.ti-angle-double-down{
+    transform: translateY(5px)
+}
+
